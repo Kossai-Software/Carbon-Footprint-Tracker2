@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts",
+    "**/*.mts"
+, "src/components/ui/dropdown-menu.jsx", "src/components/ui/accordion.jsx", "src/components/ui/alert-dialog.jsx", "src/components/ui/alert.jsx", "src/components/ui/aspect-ratio.jsx", "src/components/ui/avatar.jsx", "src/components/ui/badge.jsx", "src/components/ui/button.jsx", "src/components/ui/calendar.jsx", "src/components/ui/card.jsx", "src/components/ui/checkbox.jsx", "src/components/ui/collapsible.jsx", "src/components/ui/command.jsx", "src/components/ui/context-menu.jsx", "src/components/ui/dialog.jsx", "src/components/ui/toaster.tsx"  ],
+  "exclude": ["node_modules"]
+}
